@@ -1,0 +1,5 @@
+*.js
+*.json
+.*
+dist/
+node_modules/
