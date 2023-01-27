@@ -9,10 +9,7 @@ The user-friendly tool that acts on AWS accounts
 
 1. AWS Account Programmatic Credentials
 
-AWS SDKzao use programatic aws authentication method, so be sure the correct credentials are set up in the file `~/.aws/credentials`, i.e. `access key ID`, `secret access key` and the correspondent `profile name`. 
-
-Unless the profile is the `default`, certify the environment variable AWS_PROFILE keeps the desired profile name, accordingly with the file `~/.aws/credentials`. 
-
+The simplest way to config the credentials is define the environment variables `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` in the file `.env`, but that can be insecure. So, always that is possible, add the AWS programatic credentials in the file `~/.aws/credentials` and let the environment variable `AWS_PROFILE` points to desired profile name. You can set this variable using the operating system or the file .env, to have effect only for AWS SDKzao.
 
 2. Instalation
 
