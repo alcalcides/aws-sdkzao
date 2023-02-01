@@ -13,6 +13,10 @@ The simplest way to config the credentials is define the environment variables `
 
 2. Instalation
 
+- Download the project
+- Make a copy of `.env.example`, let its name be `.env` and set up the environment variables
+- Use the known npm commands
+
 ```sh
 npm install
 npm build
