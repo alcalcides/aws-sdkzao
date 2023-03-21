@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-lambda": "^3.258.0",
+    "ads-mylog": "^2.0.2",
     "dotenv": "^16.0.3"
   }
 }
