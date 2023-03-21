@@ -1,6 +1,6 @@
 {
   "name": "aws-sdkzao",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Quite AWS Inspectioner",
   "main": "index.js",
   "scripts": {
